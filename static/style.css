@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+}
+.bg { 
+    background-image: url("https://assets-global.website-files.com/6019c274d3890b4acd439555/647a4c233290d1206335dd36_Screen%20Shot%202023-06-02%20at%204.07.49%20PM.png");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+   font-size:50px; 
+    text-shadow: 3px 3px 6px #2beef1;
+    font-weight: bolder;
+    font-family:'Garamound';
+    color:rgb(232, 248, 51);
+    text-align: center;
+}
+
+.head {
+  color: white;
+  font-family: sans-serif;
+  font-size: 28px;
+  border-bottom: double;
+  text-align: center;
+}
+
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+}
+
+.tablink {
+    background-color: #FEA127;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    width: 300px; position: absolute; top: 175px; left:50px;
+}
+
+
+.tablink:hover {
+    background-color: green;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    width: 855px;
+    position: relative;
+    height: 350px;
+}
+
+.btn.btn-primary{
+    padding: 10px;
+
+}
+
+
+#footer{background-color: black;
+text-decoration: underline;
+text-align: center;
+font-family: sans-serif;
+text-decoration-color: white;
+color: white;
+align-self: bottom;}
+#Symptom {background-color:#78A9FD; width: 600px; top:45px ;left: 50px;height:450px;}
